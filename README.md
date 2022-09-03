@@ -1,3 +1,3 @@
 # desafio1-2
 Flexbox
-link : 
+link : https://bycudi.github.io/desafio1-2/
