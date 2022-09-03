@@ -1,0 +1,120 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.papa {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-around;
+}
+
+.principal {
+  background-color: #e7e4ee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex: 1 0 0rem;
+}
+.principal p {
+  margin-top: 0px;
+}
+.principal h1 {
+  margin-bottom: 1px;
+}
+.principal img {
+  width: 400px;
+}
+
+.contactos {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 0.25 0 0rem;
+}
+.estado {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-style: ridge;
+}
+.datos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  gap: 10px;
+}
+.textos {
+  display: flex;
+  flex-direction: column;
+}
+.textos h3 {
+  margin-bottom: 0px;
+}
+.textos p {
+  margin-top: 0px;
+}
+.datos img {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
+.iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  gap: 10px;
+}
+
+.chat {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  border-style: ridge;
+}
+.chat button {
+  color: white;
+  background-color: #a491d2;
+  border-color: transparent;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px 39px;
+}
+.contacto img {
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+}
+.contacto {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-style: ridge;
+}
+
+.texto h3 {
+  margin-bottom: 0px;
+}
+.texto p {
+  margin-top: 0px;
+}
